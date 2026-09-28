@@ -1,2 +1,1 @@
-# explain-it
-Multi-model LangChain app that turns any text into ELI5, technical, and interview-prep explanations — run in parallel and merged into one document, with a Streamlit UI.
+ELI5 to Expert is a LangChain-powered tool that takes any piece of text and generates three parallel explanations — a simple ELI5 version, a technical/expert breakdown, and interview-prep Q&A — then merges them into a single, well-organized markdown document. Built with RunnableParallel for concurrent generation across multiple free-tier LLMs (Groq + Gemini), wrapped in a clean Streamlit interface with per-stage model selection and markdown export.
